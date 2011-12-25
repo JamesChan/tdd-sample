@@ -1,7 +1,7 @@
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class CurrencyTest {
+public class MoneyTest {
 	@Test
 	public void testCurrency() {
 		assertEquals("USD", Money.dollar(1).currency());
